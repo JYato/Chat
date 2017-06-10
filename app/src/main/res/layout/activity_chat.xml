@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.jasonapps.chat_app.chat">
+
+    <TextView
+        android:id="@+id/titulo"
+        android:text="@string/Name"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteY="4dp"
+        tools:layout_editor_absoluteX="16dp" />
+    <TextView
+        android:id="@+id/caja"
+        android:text=""
+        android:layout_width="350dp"
+        android:layout_height="364dp"
+        tools:layout_editor_absoluteY="63dp"
+        tools:layout_editor_absoluteX="17dp" />
+    <EditText
+        android:id="@+id/entrada"
+        android:hint="@string/EA"
+        android:layout_width="251dp"
+        android:layout_height="43dp"
+        tools:layout_editor_absoluteY="434dp"
+        tools:layout_editor_absoluteX="16dp" />
+    <Button
+        android:id="@+id/enviar"
+        android:text="@string/Enviar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteY="434dp"
+        tools:layout_editor_absoluteX="280dp" />
+</android.support.constraint.ConstraintLayout>
